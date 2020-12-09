@@ -1,0 +1,89 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "SuperContributionPercentage": "1.095",
+  "IncomeTaxRules": {
+    "MedicareLevyRules": [
+      {
+        "MinIncome": "0",
+        "MaxIncome": "21335",
+        "TaxPercent": "0",
+        "FlatAmount": "0",
+        "CapAmount": "0"
+      },
+      {
+        "MinIncome": "21336",
+        "MaxIncome": "26668",
+        "TaxPercent": "0.1",
+        "FlatAmount": "0",
+        "CapAmount": "21335"
+      },
+      {
+        "MinIncome": "26669",
+        "MaxIncome": null,
+        "TaxPercent": "0.02",
+        "FlatAmount": "0",
+        "CapAmount": "0"
+      }
+    ],
+    "BudgetRepairLevyRules": [
+      {
+        "MinIncome": "0",
+        "MaxIncome": "180000",
+        "TaxPercent": "0",
+        "FlatAmount": "0",
+        "CapAmount": "0"
+      },
+      {
+        "MinIncome": "180,001",
+        "MaxIncome": null,
+        "TaxPercent": "0.02",
+        "FlatAmount": "0",
+        "CapAmount": "180000"
+      }
+    ],
+    "IncomeTaxRules": [
+      {
+        "MinIncome": "0",
+        "MaxIncome": "18200",
+        "TaxPercent": "0",
+        "FlatAmount": "0",
+        "CapAmount": "0"
+      },
+      {
+        "MinIncome": "18201",
+        "MaxIncome": "37000",
+        "TaxPercent": "0.19",
+        "FlatAmount": "0",
+        "CapAmount": "18200"
+      },
+      {
+        "MinIncome": "37001",
+        "MaxIncome": "87000",
+        "TaxPercent": "0.325",
+        "FlatAmount": "3572",
+        "CapAmount": "37000"
+      },
+      {
+        "MinIncome": "87001",
+        "MaxIncome": "180000",
+        "TaxPercent": "0.37",
+        "FlatAmount": "19822",
+        "CapAmount": "87000"
+      },
+      {
+        "MinIncome": "180001",
+        "MaxIncome": null,
+        "TaxPercent": "0.47",
+        "FlatAmount": "54232",
+        "CapAmount": "180000"
+      }
+    ]
+  }
+}
